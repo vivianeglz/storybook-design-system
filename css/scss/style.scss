@@ -1,0 +1,24 @@
+///// ABSTRACT /////
+@import '00-abstracts/mixins.scss';
+@import '00-abstracts/variables.scss';
+@import '00-abstracts/breakpoints.scss';
+
+///// BASE /////
+@import '01-base/base.scss';
+@import '01-base/normalize.scss';
+@import '01-base/layout.scss';
+
+
+///// ATOMS /////
+@import '02-atoms/buttons.scss';
+@import '02-atoms/headings.scss';
+@import '02-atoms/paragraph.scss';
+
+///// MOLECULES /////
+@import '03-molecules/media.scss';
+
+///// ORGANISMS /////
+
+///// TEMPLATES /////
+
+@import 'pattern-scaffolding.css'

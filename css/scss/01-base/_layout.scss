@@ -1,0 +1,22 @@
+.container {
+  max-width: calc(1200px - 5vw);
+  padding: 0 2.5vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  h1, main, aside {
+    width: 100%;
+  }
+}
+
+@media (min-width : $screen-l) {
+  .container {
+    main {
+      width: 60%;
+    }
+    aside {
+      width: 35%;
+    }
+  }
+}
