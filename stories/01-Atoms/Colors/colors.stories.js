@@ -5,6 +5,7 @@ import { text } from "@storybook/addon-knobs";
 import ColorItem from "../../../components/color/index.vue";
 
 /* Spec */
+import SpecColors from "./spec.colors.md";
 
 storiesOf("Atoms/Colors", module)
   .add(
@@ -30,7 +31,7 @@ storiesOf("Atoms/Colors", module)
     `
     }),
     {
-      notes: null
+      notes: SpecColors
     }
   )
   .add(
@@ -59,7 +60,7 @@ storiesOf("Atoms/Colors", module)
     `
     }),
     {
-      notes: null
+      notes: SpecColors
     }
   )
   .add(
@@ -88,7 +89,7 @@ storiesOf("Atoms/Colors", module)
     `
     }),
     {
-      notes: null
+      notes: SpecColors
     }
   )
   .add(
@@ -118,6 +119,6 @@ storiesOf("Atoms/Colors", module)
     `
     }),
     {
-      notes: null
+      notes: SpecColors
     }
   );

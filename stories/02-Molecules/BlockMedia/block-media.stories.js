@@ -5,6 +5,7 @@ import { withKnobs, select, text, files } from "@storybook/addon-knobs";
 import BlockMedia from "../../../components/block-media/index.vue";
 
 /* Spec */
+import SpecBlock from "./spec.block-media.md";
 
 storiesOf("Molecules", module)
   .addDecorator(
@@ -50,6 +51,6 @@ storiesOf("Molecules", module)
       `
     }),
     {
-      notes: null
+      notes: SpecBlock
     }
   );

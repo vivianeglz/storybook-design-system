@@ -5,6 +5,7 @@ import { text } from "@storybook/addon-knobs";
 import ButtonPrimary from "../../../components/buttons/ButtonPrimary.vue";
 
 /* Spec */
+import SpecButton from "./spec.buttons.md";
 
 storiesOf("Atoms/Buttons", module).add(
   "Primary",
@@ -24,6 +25,6 @@ storiesOf("Atoms/Buttons", module).add(
       `
   }),
   {
-    notes: null
+    notes: SpecButton
   }
 );

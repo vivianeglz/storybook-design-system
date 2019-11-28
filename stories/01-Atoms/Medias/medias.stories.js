@@ -5,6 +5,7 @@ import { files, text } from "@storybook/addon-knobs";
 import ImageSquare from "../../../components/medias/ImageSquare.vue";
 
 /* Spec */
+import SpecMedias from "./spec.medias.md";
 
 storiesOf("Atoms/Medias", module).add(
   "Image Square",
@@ -25,6 +26,6 @@ storiesOf("Atoms/Medias", module).add(
       `
   }),
   {
-    notes: null
+    notes: SpecMedias
   }
 );

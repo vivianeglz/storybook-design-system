@@ -13,6 +13,7 @@ addDecorator(withKnobs);
 const scssReq = require.context("!!raw-loader!../css/scss", true, /.\.scss$/);
 const scssTokenFiles = scssReq
   .keys()
+  .sort()
   .map(filename => ({ filename, content: scssReq(filename).default }));
 
 addParameters({
@@ -25,7 +26,8 @@ addParameters({
     files: {
       scss: scssTokenFiles
     }
-  }
+  },
+  categoryOrder: ["Atoms", "Molecules", "Organisms", "Templates", "Pages"]
 });
 
 require(`../css/scss/style.scss`);
