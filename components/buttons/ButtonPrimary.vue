@@ -1,5 +1,5 @@
 <template functional>
-  <button class="btn--primary btn">
+  <button class="btn--primary btn" @click="listeners.click">
     <slot />
   </button>
 </template>

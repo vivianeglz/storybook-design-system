@@ -1,4 +1,5 @@
 import { storiesOf } from "@storybook/vue";
+import { action } from "@storybook/addon-actions";
 import { text } from "@storybook/addon-knobs";
 
 /* Components */
@@ -18,8 +19,11 @@ storiesOf("Atoms/Buttons", module).add(
         default: text("Text", "Primary")
       }
     },
+    methods: {
+      handleClick: action("click")
+    },
     template: `
-        <button-primary>
+        <button-primary @click="handleClick">
           {{ text }}
         </button-primary>
       `
