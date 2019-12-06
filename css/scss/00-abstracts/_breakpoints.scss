@@ -1,17 +1,11 @@
-// Extra Extra Small Devices, Phones
-$screen-xxs: 320px;
+/**
+ * @tokens Breakpoints
+ * @presenter Breakpoint
+ */
 
-// Extra Small Devices, Phones
-$screen-xs: 480px;
-
-// Small Devices, Tablets
-$screen-sm: 768px;
-
-// Medium Devices, Desktops
-$screen-m: 992px;
-
-// Intermediate Devices
-$screen-l: 1200px;
-
-// Large Devices, Wide Screens
-$screen-lg: 1800px;
+$screen-xxs: 320px; /* Extra Extra Small Devices, Phones */
+$screen-xs: 480px; /* Extra Extra Small Devices, Phones */
+$screen-sm: 768px; /* Small Devices, Tablets */
+$screen-m: 992px; /* Medium Devices, Desktops */
+$screen-l: 1200px; /* Medium Devices, Desktops */
+$screen-lg: 1800px; /* Large Devices, Wide Screens */

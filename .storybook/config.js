@@ -26,8 +26,7 @@ addParameters({
     files: {
       scss: scssTokenFiles
     }
-  },
-  categoryOrder: ["Atoms", "Molecules", "Organisms", "Templates", "Pages"]
+  }
 });
 
 require(`../css/scss/style.scss`);
