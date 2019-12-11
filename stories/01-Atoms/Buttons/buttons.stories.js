@@ -15,7 +15,7 @@ storiesOf("Atoms/Buttons", module).add(
       ButtonPrimary
     },
     props: {
-      text: {
+      title: {
         default: text("Text", "Primary")
       }
     },
@@ -23,9 +23,7 @@ storiesOf("Atoms/Buttons", module).add(
       handleClick: action("click")
     },
     template: `
-        <button-primary @click="handleClick">
-          {{ text }}
-        </button-primary>
+        <button-primary @click="handleClick" :title="title"/>
       `
   }),
   {

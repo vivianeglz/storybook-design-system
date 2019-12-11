@@ -1,5 +1,13 @@
 # Primary Button
 
-## Slots
+## Props
 
-A default slot is used to display the button's content
+| Props  | Type  | Required  | Default  | Description  |
+|---|---|---|---|---|
+| title  | String  | False  | "Primary" | The button's title |
+
+## Events 
+
+| Event | Return | Description | 
+|---|---|---|
+| click | Event object | The click event |

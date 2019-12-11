@@ -1,12 +1,16 @@
 <template functional>
-  <button class="btn--primary btn" @click="listeners.click">
-    <slot />
-  </button>
+  <button class="btn--primary btn" @click="listeners.click">{{props.title}}</button>
 </template>
 
 <script>
 export default {
-  name: "ButtonPrimary"
+  name: "ButtonPrimary",
+  props: {
+    title: {
+      type: String,
+      default: "Primary"
+    }
+  }
 };
 </script>
 
