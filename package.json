@@ -29,7 +29,7 @@
     "@storybook/addon-notes": "^5.2.0",
     "@storybook/addon-storysource": "^5.2.0",
     "@storybook/addon-viewport": "^5.2.0",
-    "@storybook/vue": "^5.2.0",
+    "@storybook/vue": "^6.5.13",
     "ajv": "^6.10.2",
     "autosize": "^4.0.2",
     "chart.js": "^2.8.0",
